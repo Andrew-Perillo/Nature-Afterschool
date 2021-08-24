@@ -4,6 +4,7 @@
 nav {
     overflow: hidden;
     margin: 3vh auto;
+
     width: 90vw;
 }
 
@@ -37,9 +38,9 @@ a:hover {
 
 li {
     border: 1px solid white;
-    background-color: #FA591E;
-    
+    background-color: #FA591E;   
 }
+/*Nav bar configuration ends here*/
 
 li:hover {
     background-color: #B4B1BD;
@@ -85,4 +86,15 @@ h1 {
     margin: auto;
     background-color: white;
     box-shadow: inset 10px 10px 5px #FFE3D9;
+=======
+.content-1 {
+    padding-left: 3vw;
+    padding-top: 1vw;
+    border: 1px solid black;
+    width: 90vw;
+    margin: auto;
+}
+
+h1 {
+    color: #4422A1;
 }
