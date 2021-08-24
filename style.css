@@ -3,11 +3,7 @@
 
 nav {
     overflow: hidden;
-<<<<<<< HEAD
     margin: 3vh auto;
-=======
-    margin: auto;
->>>>>>> c3cbd1877f75f6dc087bec60076cd8540b336bbe
     width: 90vw;
 }
 
@@ -43,8 +39,6 @@ li {
     border: 1px solid white;
     background-color: #FA591E;
     
-<<<<<<< HEAD
-=======
 }
 
 li:hover {
@@ -74,11 +68,9 @@ li:hover {
     flex-direction: column;
     text-align: center;
     border: 1px solid white;
->>>>>>> c3cbd1877f75f6dc087bec60076cd8540b336bbe
 }
 /*Nav bar configuration ends here*/
 
-<<<<<<< HEAD
 li:hover {
     background-color: #B4B1BD;
 }
@@ -123,16 +115,4 @@ h1 {
     margin: auto;
     background-color: white;
     box-shadow: inset 10px 10px 5px #FFE3D9;
-=======
-.content-1 {
-    padding-left: 3vw;
-    padding-top: 1vw;
-    border: 1px solid black;
-    width: 90vw;
-    margin: auto;
-}
-
-h1 {
-    color: #4422A1;
->>>>>>> c3cbd1877f75f6dc087bec60076cd8540b336bbe
 }
