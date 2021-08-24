@@ -3,7 +3,8 @@
 
 nav {
     overflow: hidden;
-    margin: auto;
+    margin: 3vh auto;
+
     width: 90vw;
 }
 
@@ -32,17 +33,17 @@ nav a {
 }
 
 a:hover {
-    background-color: #FCB49A;
+    background-color: #B4B1BD;
 }
 
 li {
     border: 1px solid white;
-    background-color: #FA591E;
-    
+    background-color: #FA591E;   
 }
+/*Nav bar configuration ends here*/
 
 li:hover {
-    background-color: #FCB49A;
+    background-color: #B4B1BD;
 }
 
 .dropdown {
@@ -71,6 +72,21 @@ li:hover {
 }
 /*Nav bar configuration ends here*/
 
+h1 {
+    color: #FA591E;
+}
+
+.bg-style {
+    background-color: #FCB49A;
+}
+
+.content-1 {
+    padding: 3vw 5vh;
+    width: 90vw;
+    margin: auto;
+    background-color: white;
+    box-shadow: inset 10px 10px 5px #FFE3D9;
+=======
 .content-1 {
     padding-left: 3vw;
     padding-top: 1vw;
