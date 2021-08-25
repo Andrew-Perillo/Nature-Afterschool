@@ -8,7 +8,7 @@ nav {
     font-size: 1.5em;
 }
 
-ul {
+nav ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -36,44 +36,14 @@ a:hover {
     background-color: #B4B1BD;
 }
 
-li {
+nav ul li {
     border: 1px solid white;
     background-color: #FA591E;
     
 }
 
-li:hover {
+nav ul li:hover {
     background-color: #FCB49A;
-}
-
-.dropdown {
-    background-color: #FA591E;
-}
-
-
-.apply-list {
-    display: none;
-    position:absolute;
-    left: 38vw;
-    right:38vw;
-    background-color: #FA591E;
-}
-
-.dropdown:hover .apply-list {
-    display: block;
-}
-
-
-.apply-list a {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    border: 1px solid white;
-}
-/*Nav bar configuration ends here*/
-
-li:hover {
-    background-color: #B4B1BD;
 }
 
 .dropdown {
@@ -116,4 +86,19 @@ body {
     margin: auto;
     background-color: white;
     box-shadow: inset 10px 10px 5px #FFE3D9;
+}
+
+#app-form {
+    display: table;
+    width: 10vw;
+    table-layout: fixed;
+}
+
+#app-form input {
+    margin-top: 3px;
+}
+
+#forest-img {
+    float: right;
+    height: 50%:
 }

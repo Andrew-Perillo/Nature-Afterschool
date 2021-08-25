@@ -6,7 +6,7 @@
     </head>
 
 
-    <body class="bg-style">
+    <body>
         <!--Nav bar starts here-->
         <nav>
             <ul>
@@ -30,14 +30,32 @@
         <!--Nav bar ends here-->
 
         <div class="content-1"><h1>How to Apply for Our Programs!</h1>
-        <h2 id="requirements">Application Requirements</h2>
+            <img alt="A group of teens huddled together in a forest" src="teens-1006343_640.jpg" style="float:right;">
+        <h2 id="requirements">Program Requirements</h2>
+        <ul>
+            <li>In order to join the program, your child must be between the ages of 8-18.</li>
+            <li>Each program lasts for only two hours; someone must pick up your child at the end of the day.</li>
+            <li>The child must use our standardized equipment.</li>
+            <li>The child must bring their own food, if necessary.</li>
+        </ul>
         <h2 id="dates">Dates and Deadlines</h2>
             <p>Lists?</p>
         
         <h2 id="fees">Fees</h2>
             <p>Table of fees</p>
         <h2 id="application">Application Form</h2>
-            <p>Insert form here</p>
+            <form id="app-form">
+                <label for="child-name">Child's Name: <input type="text" id=child-name></label>
+                <label for="child-DOB">Child's Date of Birth: <input type="date" id=child-DOB></label>
+                <label for="classname">What program are you enrolling your child in? <input type="text" id=classname></label>
+                <label for="parent-name">Parent's Name: <input type="text" id=parent-name></label>
+                <label for="email">Parent Email: <input type="text" id=email></label>
+                <label for="telephone">Phone Number: <input type="tel" id=telephone></label>
+                <label for="address">Address: <input type="text" id=address></label>
+                <label for="emergency">Emergency Contact: <input type="text" id=emergency></label>
+                <button>Submit!</button>
+                
+            </form>
         </div>
     </body>
 </html>
