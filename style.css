@@ -2,17 +2,16 @@
 /*Nav bar configuration starts here*/
 
 nav {
-    width: 90%;
+    overflow: hidden;
     margin: 3vh auto;
-    background-color: #FA591E;
+
+    width: 90vw;
 }
 
 ul {
     display: flex;
     flex-direction: row;
-    width: 100%;
     justify-content: space-evenly;
-    align-self: stretch;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -20,40 +19,87 @@ ul {
 
 }
 
-a {
+nav a {
+    color: black;
+    text-decoration: none;
+    flex: 1 1 auto;
+    overflow: hidden;
+}
+
+.dropdown {
     color: black;
     text-decoration: none;
     flex: 1 1 auto;
 }
 
 a:hover {
-    background-color: #FCB49A;
+    background-color: #B4B1BD;
 }
 
 li {
     border: 1px solid white;
+    background-color: #FA591E;   
+}
+/*Nav bar configuration ends here*/
+
+li:hover {
+    background-color: #B4B1BD;
 }
 
-/*Nav bar configuration ends here */
-
-#Activities {
-    font-family: Arial, Helvetica, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
+.dropdown {
+    background-color: #FA591E;
 }
-#Activities td, #Activities th {
-    border: 3px solid black;
-    padding: 8px;
-}
-#Activities tr:nth-child(even){background-color: aquamarine;}
-#Activities tr:hover {background-color: coral;}
 
-#Activities th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: left;
+
+.apply-list {
+    display: none;
+    position:absolute;
+    left: 38vw;
+    right:38vw;
+    background-color: #FA591E;
+}
+
+.dropdown:hover .apply-list {
+    display: block;
+}
+
+
+.apply-list a {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid white;
+}
+/*Nav bar configuration ends here*/
+
+h1 {
+    color: #FA591E;
+}
+
+.bg-style {
+    background-color: #FCB49A;
+}
+
+.content-1 {
+    padding: 3vw 5vh;
+    width: 90vw;
+    margin: auto;
+    background-color: white;
+    box-shadow: inset 10px 10px 5px #FFE3D9;
+=======
+.content-1 {
+    padding-left: 3vw;
+    padding-top: 1vw;
+    border: 1px solid black;
+    width: 90vw;
+    margin: auto;
+}
+
+
+
+
    
     
     
-}
+
 
