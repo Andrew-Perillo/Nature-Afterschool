@@ -69,9 +69,9 @@ nav ul li:hover {
     flex-direction: column;
     text-align: center;
     border: 1px solid white;
+    background-color: #FA591E;   
 }
 /*Nav bar configuration ends here*/
-
 h1 {
     color: #FA591E;
 }
@@ -96,10 +96,23 @@ body {
 
 #app-form input {
     margin-top: 3px;
-<<<<<<< Updated upstream
-}
-=======
 }
 
+#Activities {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+#Activities td, #Activities th {
+    border: 3px solid black;
+    padding: 8px;
+}
 
->>>>>>> Stashed changes
+#Activities tr:nth-child(even){background-color: aquamarine;}
+#Activities tr:hover {background-color: coral;}
+
+#Activities th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+  }
