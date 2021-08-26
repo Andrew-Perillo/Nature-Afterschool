@@ -4,11 +4,11 @@
 nav {
     overflow: hidden;
     margin: 3vh auto;
-
     width: 90vw;
+    font-size: 1.5em;
 }
 
-ul {
+nav ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -36,14 +36,14 @@ a:hover {
     background-color: #B4B1BD;
 }
 
-li {
+nav ul li {
     border: 1px solid white;
-    background-color: #FA591E;   
+    background-color: #FA591E;
+    
 }
-/*Nav bar configuration ends here*/
 
-li:hover {
-    background-color: #B4B1BD;
+nav ul li:hover {
+    background-color: #FCB49A;
 }
 
 .dropdown {
@@ -69,6 +69,7 @@ li:hover {
     flex-direction: column;
     text-align: center;
     border: 1px solid white;
+    background-color: #FA591E;   
 }
 /*Nav bar configuration ends here*/
 
@@ -86,14 +87,6 @@ h1 {
     margin: auto;
     background-color: white;
     box-shadow: inset 10px 10px 5px #FFE3D9;
-=======
-.content-1 {
-    padding-left: 3vw;
-    padding-top: 1vw;
-    border: 1px solid black;
-    width: 90vw;
-    margin: auto;
-}
 
 #Activities {
     font-family: Arial, Helvetica, sans-serif;
@@ -104,6 +97,16 @@ h1 {
     border: 3px solid black;
     padding: 8px;
 }
+
+#app-form {
+    display: table;
+    width: 10vw;
+    table-layout: fixed;
+}
+
+#app-form input {
+    margin-top: 3px;
+}
 #Activities tr:nth-child(even){background-color: aquamarine;}
 #Activities tr:hover {background-color: coral;}
 
@@ -111,10 +114,6 @@ h1 {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-
-
-   
-    
-    
+  }
 
 
