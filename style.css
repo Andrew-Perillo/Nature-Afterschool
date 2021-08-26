@@ -72,12 +72,11 @@ nav ul li:hover {
     background-color: #FA591E;   
 }
 /*Nav bar configuration ends here*/
-
 h1 {
     color: #FA591E;
 }
 
-.bg-style {
+body {
     background-color: #FCB49A;
 }
 
@@ -87,15 +86,6 @@ h1 {
     margin: auto;
     background-color: white;
     box-shadow: inset 10px 10px 5px #FFE3D9;
-
-#Activities {
-    font-family: Arial, Helvetica, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-}
-#Activities td, #Activities th {
-    border: 3px solid black;
-    padding: 8px;
 }
 
 #app-form {
@@ -107,6 +97,17 @@ h1 {
 #app-form input {
     margin-top: 3px;
 }
+
+#Activities {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+#Activities td, #Activities th {
+    border: 3px solid black;
+    padding: 8px;
+}
+
 #Activities tr:nth-child(even){background-color: aquamarine;}
 #Activities tr:hover {background-color: coral;}
 
@@ -115,5 +116,3 @@ h1 {
     padding-bottom: 12px;
     text-align: left;
   }
-
-
