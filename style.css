@@ -116,3 +116,25 @@ body {
     padding-bottom: 12px;
     text-align: left;
   }
+  
+
+
+
+/*Footer configuration starts here*/
+.space2 {
+padding: 40px;
+}
+.footer {
+position: fixed;
+width: 100%;
+left: 0;
+bottom: 0;
+color: black;
+text-align:center;
+padding: 5px;
+}
+/*Footer configuration ends here*/
+
+/*Configuration for About us starts here */
+
+
