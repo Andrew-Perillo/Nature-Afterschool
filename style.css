@@ -16,9 +16,7 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #4422A1;
-    border-top: 3px solid black;
-    border-bottom: 3px solid black;
+    background-color: #FA591E;
 
 }
 
@@ -38,7 +36,7 @@ nav ul li a {
 nav ul li a:hover {
     border-left: 1px solid black;
     border-right: 1px solid black;
-    background-color: hsl(256, 65%, 20%);
+    background-color: hsl(16, 96%, 30%);
 }
 
 
@@ -92,8 +90,11 @@ nav ul li a:hover {
     }
 }
 /*Nav bar configuration ends here*/
+
 h1 {
     color: #FA591E;
+    padding-left: 3vw;
+    padding-top: 1vw;
 }
 
 body {
@@ -102,12 +103,14 @@ body {
 
 .content-1 {
     position: absolute;
-    top: 35vh;
-    padding: 3vw 5vh;
-    width: 93vw;
-    margin: auto;
+    left: 0;
+    top: 30vh;
+    width: 100%;
     background-color: white;
-    box-shadow: inset 10px 10px 5px #FFE3D9;
+}
+
+.text-css {
+    padding-left: 3vw;
 }
 
 #app-form {
