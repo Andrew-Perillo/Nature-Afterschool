@@ -92,9 +92,13 @@ nav ul li a:hover {
 /*Nav bar configuration ends here*/
 
 h1 {
-    color: #FA591E;
+    color: #4422A1;
     padding-left: 3vw;
     padding-top: 1vw;
+}
+
+h2 {
+    color: hsl(256, 65%, 65%);
 }
 
 body {
@@ -141,3 +145,31 @@ body {
     padding-bottom: 12px;
     text-align: left;
   }
+
+  .boxed-content {
+      display: flex;
+      flex-direction: column;
+      border: 1px solid #FA591E;
+      padding: 5px;
+      margin: 5px;
+      width: fit-content;
+      color: #FA591E;
+      box-shadow: 2px 2px 5px #B4B1BD;
+
+  }
+
+  .boxed-content:hover {
+    background-color: #FA591E;
+    color: white;
+}
+
+  .boxed-content p {
+      margin-top: -1em;
+      display: none;
+      width: 30vw;
+  }
+
+  .boxed-content:hover p {
+    display: initial;
+    
+}
