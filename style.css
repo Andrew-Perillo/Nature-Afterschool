@@ -2,78 +2,103 @@
 /*Nav bar configuration starts here*/
 
 nav {
-    overflow: hidden;
-    margin: 3vh auto;
-    width: 90vw;
-    font-size: 1.5em;
+    position: absolute;
+    top: 25vh;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 999;
+
 }
 
 nav ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    text-align: center;
-
-}
-
-nav a {
-    color: black;
-    text-decoration: none;
-    flex: 1 1 auto;
     overflow: hidden;
-}
+    background-color: #FA591E;
 
-.dropdown {
-    color: black;
-    text-decoration: none;
-    flex: 1 1 auto;
-}
-
-a:hover {
-    background-color: #B4B1BD;
 }
 
 nav ul li {
-    border: 1px solid white;
-    background-color: #FA591E;
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: #FFE3D9;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+
+}
+
+nav ul li a:hover {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    background-color: hsl(16, 96%, 30%);
+}
+
+
+#a1 {
+    animation-name: nav-slide;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+}
+
+#a2 {
+    animation-name: nav-slide;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
     
 }
 
-nav ul li:hover {
-    background-color: #FCB49A;
+#a3 {
+    animation-name: nav-slide;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    
 }
 
-.dropdown {
-    background-color: #FA591E;
+#a4 {
+    animation-name: nav-slide;
+    animation-duration: 3.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
-
-.apply-list {
-    display: none;
-    position:absolute;
-    left: 38vw;
-    right:38vw;
-    background-color: #FA591E;
+#a5 {
+    animation-name: nav-slide;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
-.dropdown:hover .apply-list {
-    display: block;
-}
+@keyframes nav-slide {
+    from {
+        position: relative;
+        left: 100vw;       
+    }
 
-
-.apply-list a {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    border: 1px solid white;
-    background-color: #FA591E;   
+    to {
+        position: relative;
+        left: 0;
+    }
 }
 /*Nav bar configuration ends here*/
+
 h1 {
-    color: #FA591E;
+    color: #4422A1;
+    padding-left: 3vw;
+    padding-top: 1vw;
+}
+
+h2 {
+    color: hsl(256, 65%, 65%);
 }
 
 body {
@@ -81,11 +106,15 @@ body {
 }
 
 .content-1 {
-    padding: 3vw 5vh;
-    width: 90vw;
-    margin: auto;
+    position: absolute;
+    left: 0;
+    top: 30vh;
+    width: 100%;
     background-color: white;
-    box-shadow: inset 10px 10px 5px #FFE3D9;
+}
+
+.text-css {
+    padding-left: 3vw;
 }
 
 #app-form {
@@ -116,7 +145,34 @@ body {
     padding-bottom: 12px;
     text-align: left;
   }
-  
+
+  .boxed-content {
+      display: flex;
+      flex-direction: column;
+      border: 1px solid #FA591E;
+      padding: 5px;
+      margin: 5px;
+      width: fit-content;
+      color: #FA591E;
+      box-shadow: 2px 2px 5px #B4B1BD;
+
+  }
+
+  .boxed-content:hover {
+    background-color: #FA591E;
+    color: white;
+}
+
+  .boxed-content p {
+      margin-top: -1em;
+      display: none;
+      width: 30vw;
+  }
+
+  .boxed-content:hover p {
+    display: initial;
+    
+}
 
 
 
@@ -136,5 +192,4 @@ padding: 5px;
 /*Footer configuration ends here*/
 
 /*Configuration for About us starts here */
-
 
