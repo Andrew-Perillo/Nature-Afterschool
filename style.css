@@ -1,3 +1,11 @@
+/*header starts here */
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
 
 /*Nav bar configuration starts here*/
 
@@ -135,6 +143,8 @@ body {
     text-align: left;
   }
 
+  /*Configuration Services ends here*/
+
   .boxed-content {
       display: flex;
       flex-direction: column;
@@ -164,7 +174,7 @@ body {
 }
 
 
-/*Configuration Services ends here*/
+
 
 /*Footer configuration starts here*/
 .space2 {
