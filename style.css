@@ -173,8 +173,10 @@ body {
     display: initial;
     
 }
-
-
+/*catskill img configuration starts here*/
+.catskillimg{
+    text-align: center;
+}
 
 /*Footer configuration starts here*/
 .space2 {
@@ -189,6 +191,7 @@ color: black;
 text-align:center;
 padding: 5px;
 }
+
 /*Footer configuration ends here*/
 
 /*Configuration for About us starts here */
