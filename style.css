@@ -139,6 +139,7 @@ body {
     margin-top: 3px;
 }
 
+.boxed-content {
     border: 1px solid #FA591E;
     width: 30vw;
     padding: 15px;
