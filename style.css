@@ -139,6 +139,28 @@ body {
     margin-top: 3px;
 }
 
+    border: 1px solid #FA591E;
+    width: 30vw;
+    padding: 15px;
+    margin: 15px;
+    box-shadow: 2px 2px 3px gray;
+    background-color: #FA591E;
+    color: white;
+
+}
+
+.boxed-content p {
+    display: none;
+    width: fit-content;
+    color: black;
+    
+}
+
+.boxed-content:hover p{
+    display: initial;
+    
+}
+
 /*Services Starts here*/
 
 table {
