@@ -1,10 +1,14 @@
 /*header starts here */
 
 header {
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
+    display: flex;
+}
+#cloud {
+    background-image: url("cloud.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 /*Nav bar configuration starts here*/
@@ -101,11 +105,11 @@ nav ul li a:hover {
 
 h1 {
     color: #4422A1;
-    padding-left: 3vw;
-    padding-top: 1vw;
+    padding-top: 5vw;
 }
 
 h2 {
+    padding-top: 1vw;
     color: hsl(256, 65%, 65%);
 }
 
@@ -137,45 +141,35 @@ body {
 
 /*Services Starts here*/
 
-#Activities th {
-    padding-top: 12px;
-    padding-bottom: 12px;
+table {
+    font-family: sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th {
+    border: 4px solid #FA591E;
     text-align: left;
-  }
+}
+tr:nth-child(even) {
+    background-color: #FFE3D9;
+}   
 
-  /*Configuration Services ends here*/
-
-  .boxed-content {
-      display: flex;
-      flex-direction: column;
-      border: 1px solid #FA591E;
-      padding: 5px;
-      margin: 5px;
-      width: fit-content;
-      color: #FA591E;
-      box-shadow: 2px 2px 5px #B4B1BD;
-
-  }
-
-  .boxed-content:hover {
-    background-color: #FA591E;
+.activities {
+    background-color: #FCB49A;
     color: white;
+    border: 3px solid black;
+    margin: 15px;
+    padding: 15px;
 }
-
-  .boxed-content p {
-      margin-top: -1em;
-      display: none;
-      width: 30vw;
-  }
-
-  .boxed-content:hover p {
-    display: initial;
-    
-}
+<<<<<<< HEAD
 /*catskill img configuration starts here*/
 .catskillimg{
     text-align: center;
 }
+=======
+/*Configuration Services ends here*/
+
+>>>>>>> 8036e749eafe881c132a0db09ceff271099e8839
 
 
 /*Footer configuration starts here*/
