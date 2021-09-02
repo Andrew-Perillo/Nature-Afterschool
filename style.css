@@ -145,33 +145,30 @@ table {
 td, th {
     border: 4px solid #FA591E;
     text-align: left;
+}
+tr:nth-child(even) {
+    background-color: #FFE3D9;
+}
+
+
+
+    .activities {
+        background-color: #FCB49A;
+        color: white;
+        border: 3pxsolid black;
+        margin: 15px;
+        padding: 15px;
+    }
+
+
+  /*Configuration Services ends here*/
 <<<<<<< HEAD
     padding: 10px;
 =======
   }
 
-  /*Configuration Services ends here*/
 
-  .boxed-content {
-      display: flex;
-      flex-direction: column;
-      border: 1px solid #FA591E;
-      padding: 5px;
-      margin: 5px;
-      width: fit-content;
-      color: #FA591E;
-      box-shadow: 2px 2px 5px #B4B1BD;
-
-  }
-
-  .boxed-content:hover {
-    background-color: #FA591E;
-    color: white;
 >>>>>>> ef648b60f4e92f1ca07f5121e43c76baf9b211da
-}
-tr:nth-child(even) {
-    background-color: #FFE3D9;
-}
 
 <<<<<<< HEAD
 .activities {
