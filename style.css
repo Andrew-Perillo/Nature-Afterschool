@@ -148,41 +148,18 @@ td, th {
 }
 tr:nth-child(even) {
     background-color: #FFE3D9;
-}
+}   
 
-
-
-    .activities {
-        background-color: #FCB49A;
-        color: white;
-        border: 3pxsolid black;
-        margin: 15px;
-        padding: 15px;
-    }
-
-
-  /*Configuration Services ends here*/
-<<<<<<< HEAD
-    padding: 10px;
-=======
-  }
-
-
->>>>>>> ef648b60f4e92f1ca07f5121e43c76baf9b211da
-
-<<<<<<< HEAD
 .activities {
     background-color: #FCB49A;
     color: white;
-    border: 3pxsolid black;
+    border: 3px solid black;
     margin: 15px;
     padding: 15px;
 }
 /*Configuration Services ends here*/
-=======
 
 
->>>>>>> ef648b60f4e92f1ca07f5121e43c76baf9b211da
 
 /*Footer configuration starts here*/
 .space2 {
