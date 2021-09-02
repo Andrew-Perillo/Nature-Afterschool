@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@1,500&family=Hina+Mincho&display=swap');
+
 /*header starts here */
 
 header {
@@ -14,6 +16,7 @@ header {
 /*Nav bar configuration starts here*/
 
 nav {
+    font-family: 'Alegreya Sans';
     position: absolute;
     top: 25vh;
     left: 0;
@@ -115,6 +118,7 @@ h2 {
 
 body {
     background-color: #FCB49A;
+    font-family: 'Hina Mincho';
 }
 
 .content-1 {
@@ -153,7 +157,6 @@ body {
 .boxed-content p {
     display: none;
     width: fit-content;
-    color: black;
     
 }
 
