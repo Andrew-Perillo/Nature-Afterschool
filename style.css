@@ -1,10 +1,14 @@
 /*header starts here */
 
 header {
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
+    display: flex;
+}
+#cloud {
+    background-image: url("cloud.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 /*Nav bar configuration starts here*/
@@ -101,11 +105,11 @@ nav ul li a:hover {
 
 h1 {
     color: #4422A1;
-    padding-left: 3vw;
-    padding-top: 1vw;
+    padding-top: 5vw;
 }
 
 h2 {
+    padding-top: 1vw;
     color: hsl(256, 65%, 65%);
 }
 
