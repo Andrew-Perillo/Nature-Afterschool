@@ -44,6 +44,7 @@ nav ul li a {
     color: #FFE3D9;
     text-align: center;
     padding: 15px;
+    margin-left: 2vw;
     text-decoration: none;
 
 }
@@ -193,8 +194,8 @@ tr:nth-child(even) {
 /*Configuration Services ends here*/
 
 /*catskill img configuration starts here*/
-.catskillimg{
-    text-align: center;
+.catskillimg {
+    width: 50vw !important;
 }
 .preferredcontact{
     text-decoration: hotpink;
