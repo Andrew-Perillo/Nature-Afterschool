@@ -143,23 +143,28 @@ table {
     width: 100%;
 }
 td, th {
-    border: 4px solid #FA591E;
+    border: 4px solid #FCB49A;
     text-align: left;
 }
 tr:nth-child(even) {
-    background-color: #FFE3D9;
+    background-color:#FA591E;
 }
-
-
-
-    .activities {
-        background-color: #FCB49A;
-        color: white;
-        border: 3pxsolid black;
-        margin: 15px;
+.activities {
+        background-color:#FCB49A;
+        color:black;
+        border: 10px solid #4422A1;
+        margin: 20px 80px 5px 5px;
         padding: 15px;
     }
-
+    .H1 {
+        font-style: italic;
+        font-size: 30px;
+        
+   
+    }
+.img1 {
+    float: right;
+}
 
   /*Configuration Services ends here*/
 <<<<<<< HEAD
