@@ -1,15 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@1,500&family=Hina+Mincho&display=swap');
+
 /*header starts here */
 
 header {
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
+    display: flex;
+}
+#cloud {
+    background-image: url("cloud.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
 }
 
 /*Nav bar configuration starts here*/
 
 nav {
+    font-family: 'Alegreya Sans';
     position: absolute;
     top: 25vh;
     left: 0;
@@ -37,6 +44,7 @@ nav ul li a {
     color: #FFE3D9;
     text-align: center;
     padding: 15px;
+    margin-left: 2vw;
     text-decoration: none;
 
 }
@@ -101,16 +109,19 @@ nav ul li a:hover {
 
 h1 {
     color: #4422A1;
-    padding-left: 3vw;
-    padding-top: 1vw;
+    padding-top: 5vw;
 }
 
-h2 {
+h2, h3{
+    padding-top: 1vw;
     color: hsl(256, 65%, 65%);
+    margin-bottom: -.1em;
+
 }
 
 body {
     background-color: #FCB49A;
+    font-family: 'Hina Mincho';
 }
 
 .content-1 {
@@ -123,6 +134,8 @@ body {
 
 .text-css {
     padding-left: 3vw;
+    padding-right: 3vw;
+    font-size: 1.2em;
 }
 
 #app-form {
@@ -133,6 +146,30 @@ body {
 
 #app-form input {
     margin-top: 3px;
+}
+
+.boxed-content {
+    border: 1px solid #FA591E;
+    width: 30vw;
+    padding: 15px;
+    margin: 15px;
+    box-shadow: 2px 2px 3px gray;
+    background-color: #FA591E;
+}
+
+.boxed-content h3 {
+    color: white;
+}
+
+.boxed-content p {
+    display: none;
+    width: fit-content;
+    color: white;   
+}
+
+.boxed-content:hover p{
+    display: initial;
+    
 }
 
 /*Services Starts here*/
@@ -147,6 +184,7 @@ td, th {
     text-align: left;
 }
 tr:nth-child(even) {
+<<<<<<< HEAD
     background-color:#FA591E;
 }
 .activities {
@@ -165,29 +203,31 @@ tr:nth-child(even) {
 .img1 {
     float: right;
 }
-
-  /*Configuration Services ends here*/
-<<<<<<< HEAD
-    padding: 10px;
 =======
-  }
+    background-color: #FFE3D9;
+}   
+>>>>>>> e5febb67b67db497cb39c4e0ed23fd74732eddf0
 
-
->>>>>>> ef648b60f4e92f1ca07f5121e43c76baf9b211da
-
-<<<<<<< HEAD
 .activities {
     background-color: #FCB49A;
     color: white;
-    border: 3pxsolid black;
+    border: 3px solid black;
     margin: 15px;
     padding: 15px;
 }
+
+
 /*Configuration Services ends here*/
-=======
+
+/*catskill img configuration starts here*/
+.catskillimg {
+    width: 50vw !important;
+}
+.preferredcontact{
+    text-decoration: hotpink;
+}
 
 
->>>>>>> ef648b60f4e92f1ca07f5121e43c76baf9b211da
 
 /*Footer configuration starts here*/
 .space2 {
@@ -202,6 +242,7 @@ color: black;
 text-align:center;
 padding: 5px;
 }
+
 /*Footer configuration ends here*/
 
 /*Configuration for About us starts here */
