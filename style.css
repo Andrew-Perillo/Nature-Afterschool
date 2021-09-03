@@ -155,14 +155,16 @@ body {
     margin: 15px;
     box-shadow: 2px 2px 3px gray;
     background-color: #FA591E;
-    color: white;
+}
 
+.boxed-content h3 {
+    color: white;
 }
 
 .boxed-content p {
     display: none;
     width: fit-content;
-    
+    color: white;   
 }
 
 .boxed-content:hover p{
