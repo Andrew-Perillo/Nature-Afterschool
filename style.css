@@ -193,16 +193,35 @@ tr:nth-child(even) {
         border: 10px solid white;
         margin: 20px 80px 5px 5px;
         padding: 15px;
+        
     }
     .H1 {
         font-style: italic;
-        font-size: 30px;
+        font-size: 20px;
         
    
     }
 .img1 {
     float: right;
 }
+.p {
+    text-align: center;
+    
+}
+.img2 {
+    float: left;
+}
+.A1 {
+    text-align: center;
+}
+.img3 {
+    float: right;
+}
+img {
+    border: #FA591E;
+    padding: 10px;
+}
+
 
     background-color: #FFE3D9;
 }   
@@ -215,6 +234,7 @@ tr:nth-child(even) {
     margin: 15px;
     padding: 15px;
 }
+
 
 
 /*Configuration Services ends here*/
