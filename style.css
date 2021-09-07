@@ -118,6 +118,10 @@ nav ul li a:hover {
     
 }
 
+.appheading-2 {
+    text-align: left;
+}
+
 h1 {
     color: #4422A1;
     padding-top: 5vw;
@@ -267,17 +271,8 @@ tr:nth-child(even) {
 }
 img {
     border: #FA591E;
-    padding: 10px;
-<<<<<<< HEAD
-}
-
-
-    background-color: #FFE3D9;
-} 
- 
-=======
+    padding: 10px; 
 }   
->>>>>>> cdae8b350745a5d8c4c0f67d22582711b1aab3ad
 
 
 .activities {
