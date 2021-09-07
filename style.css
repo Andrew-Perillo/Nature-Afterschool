@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@1,500&family=Hina+Mincho&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 /*header starts here */
 
 header {
@@ -110,9 +110,14 @@ nav ul li a:hover {
 }
 /*Nav bar configuration ends here*/
 
+.page-title {
+    font-family: 'Bangers', cursive;
+}
+
 h1 {
     color: #4422A1;
     padding-top: 5vw;
+
 }
 
 h2 {
