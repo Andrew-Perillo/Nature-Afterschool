@@ -113,7 +113,7 @@ nav ul li a:hover {
 .page-title {
     color: hsl(16, 96%, 55%);
     font-family: 'Bangers', cursive;
-    text-shadow: 1px 2px grey;
+    text-shadow: 2px 5px black;
     padding: auto 2vw;
     
 }
