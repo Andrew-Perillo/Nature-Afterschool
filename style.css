@@ -187,11 +187,18 @@ body {
 }
 
 @media (max-width: 1200px){
-    #apply-img {
+    #apply-img{
+        display: none;
+    }
+  
+}
+
+@media (max-width: 1000px) {
+
+    #cloud {
         display: none;
     }
 
-   
 }
 
 @media (max-width: 600px) {
@@ -200,6 +207,9 @@ body {
         padding-top: 10vw;
     }
     
+    .logo {
+        display:none;
+    }
 }
 
 /*Services Starts here*/
