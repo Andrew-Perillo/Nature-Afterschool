@@ -188,7 +188,16 @@ body {
 
 @media (max-width: 1200px){
     #apply-img {
-        display:none;
+        display: none;
+    }
+
+   
+}
+
+@media (max-width: 600px) {
+
+    .text-css {
+        padding-top: 10vw;
     }
     
 }
