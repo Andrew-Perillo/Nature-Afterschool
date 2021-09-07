@@ -273,6 +273,9 @@ img {
     padding: 10px; 
 }   
 
+ol, p {
+    color: black;
+}
 
 .activities {
     background-color:white;
