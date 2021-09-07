@@ -123,6 +123,7 @@ body {
 
 .text-css {
     padding-left: 3vw;
+    padding-right: 3vw;
 }
 
 #app-form {
@@ -145,9 +146,6 @@ table {
 td, th {
     border: 4px solid #FA591E;
     text-align: left;
-<<<<<<< HEAD
-    padding: 10px;
-=======
   }
 
   /*Configuration Services ends here*/
@@ -167,29 +165,17 @@ td, th {
   .boxed-content:hover {
     background-color: #FA591E;
     color: white;
->>>>>>> ef648b60f4e92f1ca07f5121e43c76baf9b211da
 }
 tr:nth-child(even) {
     background-color: #FFE3D9;
 }
 
-<<<<<<< HEAD
-.activities {
-    background-color: #FCB49A;
-    color: white;
-    border: 3pxsolid black;
-    margin: 15px;
-    padding: 15px;
-}
-/*Configuration Services ends here*/
-=======
 
 
->>>>>>> ef648b60f4e92f1ca07f5121e43c76baf9b211da
 
 /*Footer configuration starts here*/
 .space2 {
-padding: 40px;
+padding-top: 10px;
 }
 .footer {
 position: fixed;
@@ -203,4 +189,44 @@ padding: 5px;
 /*Footer configuration ends here*/
 
 /*Configuration for About us starts here */
-
+.content-background {
+    position: absolute;
+    left: 0;
+    top: 30vh;
+    width: 100%;
+    background-image: url("https://cdn.pixabay.com/photo/2018/11/17/22/15/trees-3822149__480.jpg");
+}
+.indexcontent {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    background-color: white;
+}
+.indexrow {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+}
+.team {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;  
+}
+.heahTeam {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+    margin: 10px;
+}
+.side1 {
+    padding: 10px;
+    margin: 10px;
+}
+.side2 {
+    padding: 10px;
+    margin: 10px;
+}
