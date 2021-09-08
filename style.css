@@ -327,29 +327,30 @@ padding: 5px;
 .indexcontent {
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 10px;
     margin: 30px;
-    background-color: white;
+    background-color: #FCB49A;
     text-align: left;
 }
 .indexrow {
-    padding: 5px;
-    margin: 5px;
+    padding: 0px;
+    margin: 0px;
     text-align: left;
 }
 .side1 {
-    width: 50%;
+    width: 40%;
     float: left;
     text-align: left;
 }
 .side2 {
-    width: 50%;
+    width: 60%;
     float: right;
     text-align: left;
+    font-size: 120%;
 }
 
 .HeadTeam {
-    padding: 10vh;
+    padding: 5vh;
     text-align: center;
 }
 
@@ -361,4 +362,13 @@ padding: 5px;
     padding-top: 20vh;
     margin: 20vh;
 }
+
+#prueba1 {
+    color: green;
+}
+ #prueba2 {
+     color: green;
+     text-align: center;
+     font-size: 300%;
+ }
 /*Configuration for About us and Testimonies ends here */
