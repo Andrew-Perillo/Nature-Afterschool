@@ -316,7 +316,7 @@ padding: 5px;
 
 /*Footer configuration ends here*/
 
-/*Configuration for About us starts here */
+/*Configuration for About us and Testimonies starts here */
 .content-background {
     position: absolute;
     left: 0;
@@ -330,22 +330,26 @@ padding: 5px;
     padding: 20px;
     margin: 30px;
     background-color: white;
+    text-align: left;
 }
 .indexrow {
     padding: 5px;
     margin: 5px;
+    text-align: left;
 }
 .side1 {
     width: 50%;
     float: left;
+    text-align: left;
 }
 .side2 {
     width: 50%;
     float: right;
+    text-align: left;
 }
 
 .HeadTeam {
-    padding: 30vh;
+    padding: 10vh;
     text-align: center;
 }
 
@@ -357,3 +361,4 @@ padding: 5px;
     padding-top: 20vh;
     margin: 20vh;
 }
+/*Configuration for About us and Testimonies ends here */
