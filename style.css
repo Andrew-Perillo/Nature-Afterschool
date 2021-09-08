@@ -1,15 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@1,500&family=Hina+Mincho&display=swap');
+
 /*header starts here */
 
 header {
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
+    display: flex;
+}
+#cloud {
+    background-image: url("cloud.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
 }
 
 /*Nav bar configuration starts here*/
 
 nav {
+    font-family: 'Alegreya Sans';
     position: absolute;
     top: 25vh;
     left: 0;
@@ -37,6 +44,7 @@ nav ul li a {
     color: #FFE3D9;
     text-align: center;
     padding: 15px;
+    margin-left: 2vw;
     text-decoration: none;
 
 }
@@ -101,16 +109,19 @@ nav ul li a:hover {
 
 h1 {
     color: #4422A1;
-    padding-left: 3vw;
-    padding-top: 1vw;
+    padding-top: 5vw;
 }
 
-h2 {
+h2, h3{
+    padding-top: 1vw;
     color: hsl(256, 65%, 65%);
+    margin-bottom: -.1em;
+
 }
 
 body {
     background-color: #FCB49A;
+    font-family: 'Hina Mincho';
 }
 
 .content-1 {
@@ -124,6 +135,7 @@ body {
 .text-css {
     padding-left: 3vw;
     padding-right: 3vw;
+    font-size: 1.2em;
 }
 
 #app-form {
@@ -136,6 +148,30 @@ body {
     margin-top: 3px;
 }
 
+.boxed-content {
+    border: 1px solid #FA591E;
+    width: 30vw;
+    padding: 15px;
+    margin: 15px;
+    box-shadow: 2px 2px 3px gray;
+    background-color: #FA591E;
+}
+
+.boxed-content h3 {
+    color: white;
+}
+
+.boxed-content p {
+    display: none;
+    width: fit-content;
+    color: white;   
+}
+
+.boxed-content:hover p{
+    display: initial;
+    
+}
+
 /*Services Starts here*/
 
 table {
@@ -144,32 +180,72 @@ table {
     width: 100%;
 }
 td, th {
-    border: 4px solid #FA591E;
+    border: 4px solid #FCB49A;
     text-align: left;
-  }
-
-  /*Configuration Services ends here*/
-
-  .boxed-content {
-      display: flex;
-      flex-direction: column;
-      border: 1px solid #FA591E;
-      padding: 5px;
-      margin: 5px;
-      width: fit-content;
-      color: #FA591E;
-      box-shadow: 2px 2px 5px #B4B1BD;
-
-  }
-
-  .boxed-content:hover {
-    background-color: #FA591E;
-    color: white;
 }
 tr:nth-child(even) {
-    background-color: #FFE3D9;
+
+    background-color:#FA591E;
+}
+.activities {
+        background-color:white;
+        color:black;
+        border: 10px solid white;
+        margin: 20px 80px 5px 5px;
+        padding: 15px;
+        
+    }
+    .H1 {
+        font-style: italic;
+        font-size: 20px;
+        
+   
+    }
+.img1 {
+    float: right;
+}
+.p {
+    text-align: center;
+    
+}
+.img2 {
+    float: left;
+}
+.A1 {
+    text-align: center;
+}
+.img3 {
+    float: right;
+}
+img {
+    border: #FA591E;
+    padding: 10px;
 }
 
+
+    background-color: #FFE3D9;
+}   
+
+
+.activities {
+    background-color:white;
+    color: white;
+    border: 3px solid black;
+    margin: 15px;
+    padding: 15px;
+}
+
+
+
+/*Configuration Services ends here*/
+
+/*catskill img configuration starts here*/
+.catskillimg {
+    width: 50vw !important;
+}
+.preferredcontact{
+    text-decoration: hotpink;
+}
 
 
 
@@ -186,6 +262,7 @@ color: black;
 text-align:center;
 padding: 5px;
 }
+
 /*Footer configuration ends here*/
 
 /*Configuration for About us starts here */
@@ -199,34 +276,33 @@ padding: 5px;
 .indexcontent {
     display: flex;
     flex-direction: column;
-    padding: 50px;
+    padding: 20px;
+    margin: 30px;
     background-color: white;
 }
 .indexrow {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    padding: 10px;
-    margin: 10px;
-}
-.team {
-    display: flex;
-    flex-direction: column;
-    padding: 50px;  
-}
-.heahTeam {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 10px;
-    margin: 10px;
+    padding: 5px;
+    margin: 5px;
 }
 .side1 {
-    padding: 10px;
-    margin: 10px;
+    width: 50%;
+    float: left;
 }
 .side2 {
-    padding: 10px;
-    margin: 10px;
+    width: 50%;
+    float: right;
+}
+
+.HeadTeam {
+    padding: 30vh;
+    text-align: center;
+}
+
+#header {
+    padding: 30vh;
+    text-align: center; 
+}
+.empty {
+    padding-top: 20vh;
+    margin: 20vh;
 }
