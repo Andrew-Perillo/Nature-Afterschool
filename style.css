@@ -222,6 +222,9 @@ tr:nth-child(even) {
 
     background-color:#FA591E;
 }
+.img {
+    float: right;
+}
 .activities {
     background-color:white;
     color:#4422A1;
@@ -234,6 +237,9 @@ tr:nth-child(even) {
     text-align: center;
     line-height: 2.5;
     font-size: 2em;
+    width: auto;border: 15px solid #4422A1;
+    padding: 50px;
+    margin: 20px;
 }
 
 .activities h3 {
@@ -257,14 +263,28 @@ tr:nth-child(even) {
 .img1 {
     float: right;
 }
+h1 {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 40px;
+}
+
 .img2 {
     float: right;
 }
 
-.img3 {
+.img4 {
     float: right;
 }
 
+
+
+.activities {
+    background-color:white;
+    border: 31px solid #4422A1;
+    margin: px;
+    padding: px;
+}
 
 /*Configuration Services ends here*/
 
@@ -274,6 +294,12 @@ tr:nth-child(even) {
 }
 .preferredcontact{
     text-decoration: hotpink;
+}
+.H1 {
+    font-family: cursive;
+    font-size: 40px;
+    
+    
 }
 
 
