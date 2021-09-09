@@ -239,8 +239,8 @@ tr:nth-child(even) {
 }
 .activities {
     background-color:white;
-    color:black;
-    border: 10px solid white;
+    color:#4422A1;
+    border: 10px solid #4422A1;
     margin: 20px 80px 5px 5px;
     padding: 15px;
     
@@ -260,29 +260,25 @@ tr:nth-child(even) {
     
 }
 .img2 {
-    float: left;
+    float: right;
 }
 .A1 {
     text-align: center;
 }
+
 .img3 {
     float: right;
 }
-img {
-    border: #FA591E;
-    padding: 10px; 
-}   
-
 ol, p {
-    color: black;
+    color: #4422A1;
 }
 
 .activities {
     background-color:white;
     color: white;
-    border: 3px solid black;
-    margin: 15px;
-    padding: 15px;
+    border: 31px solid #4422A1;
+    margin: px;
+    padding: px;
 }
 
 
