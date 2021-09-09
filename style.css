@@ -237,50 +237,32 @@ tr:nth-child(even) {
 
     background-color:#FA591E;
 }
-.activities {
-    background-color:white;
-    color:#4422A1;
-    border: 10px solid #4422A1;
-    margin: 20px 80px 5px 5px;
-    padding: 15px;
-    
-}
-    .H1 {
-        font-style: italic;
-        font-size: 20px;
-    }
-
-  
-    
-.img1 {
+.img {
     float: right;
 }
-.p {
+.activities {
+    background-color:white;
+    width: auto;border: 15px solid #4422A1;
+    padding: 50px;
+    margin: 20px;
+}
+.activities1 {
+    background-color: #FA591E;
+    width: auto;border: 15px solid #4422A1;
+    padding: 50px;
+    margin: 20px;
+}
+h1 {
     text-align: center;
-    
+    font-family: fantasy;
+    font-size: 40px;
 }
 .img2 {
     float: right;
 }
-.A1 {
-    text-align: center;
-}
-
-.img3 {
+.img4 {
     float: right;
 }
-ol, p {
-    color: #4422A1;
-}
-
-.activities {
-    background-color:white;
-    color: white;
-    border: 31px solid #4422A1;
-    margin: px;
-    padding: px;
-}
-
 
 
 /*Configuration Services ends here*/
@@ -291,6 +273,12 @@ ol, p {
 }
 .preferredcontact{
     text-decoration: hotpink;
+}
+.H1 {
+    font-family: cursive;
+    font-size: 40px;
+    
+    
 }
 
 
