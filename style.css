@@ -297,7 +297,7 @@ ol, p {
 
 /*Footer configuration starts here*/
 .space2 {
-padding: 40px;
+padding-top: 10px;
 }
 .footer {
 position: fixed;
@@ -311,5 +311,59 @@ padding: 5px;
 
 /*Footer configuration ends here*/
 
-/*Configuration for About us starts here */
+/*Configuration for About us and Testimonies starts here */
+.content-background {
+    position: absolute;
+    left: 0;
+    top: 30vh;
+    width: 100%;
+    background-image: url("https://cdn.pixabay.com/photo/2018/11/17/22/15/trees-3822149__480.jpg");
+}
+.indexcontent {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 30px;
+    background-color: #FCB49A;
+    text-align: left;
+}
+.indexrow {
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+}
+.side1 {
+    width: 40%;
+    float: left;
+    text-align: left;
+}
+.side2 {
+    width: 60%;
+    float: right;
+    text-align: left;
+    font-size: 120%;
+}
 
+.HeadTeam {
+    padding: 5vh;
+    text-align: center;
+}
+
+#header {
+    padding: 30vh;
+    text-align: center; 
+}
+.empty {
+    padding-top: 20vh;
+    margin: 20vh;
+}
+
+#prueba1 {
+    color: green;
+}
+ #prueba2 {
+     color: green;
+     text-align: center;
+     font-size: 300%;
+ }
+/*Configuration for About us and Testimonies ends here */
