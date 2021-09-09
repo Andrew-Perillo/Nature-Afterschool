@@ -137,10 +137,12 @@ h1 {
 
 h2 {
     padding-top: 1vw;
-    color: hsl(256, 65%, 65%);
-    margin-bottom: -.1em;
+    padding-left: 1vw;
+    color: green;
 
 }
+
+
 
 body {
     background-color: #FCB49A;
@@ -223,41 +225,45 @@ tr:nth-child(even) {
 .activities {
     background-color:white;
     color:#4422A1;
-    border: 10px solid #4422A1;
+    border: 1px solid #4422A1;
     margin: 20px 80px 5px 5px;
     padding: 15px;
-    
+    text-align: center;
+}
+.activities h2 {
+    text-align: center;
+    line-height: 2.5;
+    font-size: 2em;
 }
 
-  
+.activities h3 {
+    margin-bottom: -.1em;
+}
+
+.activities ol, .activities ul {
+    list-style-type: none;
+    text-align: center;
+    margin:0;
+    padding:0;
+}
+
+
+
+.inner-text-left {
+    display: flex;
+    flex-direction: column;
+}
     
 .img1 {
     float: right;
 }
-.p {
-    text-align: center;
-    
-}
 .img2 {
     float: right;
-}
-.A1 {
-    text-align: center;
 }
 
 .img3 {
     float: right;
 }
-
-
-
-.activities {
-    background-color:white;
-    border: 31px solid #4422A1;
-    margin: px;
-    padding: px;
-}
-
 
 
 /*Configuration Services ends here*/
@@ -299,13 +305,17 @@ padding: 5px;
 .indexcontent {
     display: flex;
     flex-direction: column;
-    margin: 30px;
+    margin: 2vw;
+    margin-top: 4vw;
     background-color: #FCB49A;
     text-align: left;
     padding-left: 2vw;
     padding-right: 2vw;
     font-size: 1.2em;
     padding-bottom: 1vw;
+    box-shadow: 0px 0px 15px black;
+    border: 3px solid black;
+    border-radius: 1em 1em;
 }
 .indexrow {
     padding: 0px;
@@ -314,6 +324,7 @@ padding: 5px;
 }
 .side1 {
     width: 40%;
+    font-size: 120%;
     float: left;
     text-align: left;
 }
