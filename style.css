@@ -110,6 +110,13 @@ nav ul li a:hover {
 }
 /*Nav bar configuration ends here*/
 
+#float-img {
+    width: 50%;
+    position: absolute;
+    top: 11%;
+    right: 8%; 
+    border: 2px solid #4422A1;
+}
 .page-title {
     color: hsl(16, 96%, 55%);
     font-family: 'Bangers', cursive;
@@ -138,30 +145,6 @@ h2 {
 body {
     background-color: #FCB49A;
     font-family: 'Hina Mincho';
-}
-
-.content-1 {
-    position: absolute;
-    left: 0;
-    top: 30vh;
-    width: 100%;
-    background-color: white;
-}
-
-.text-css {
-    padding-left: 3vw;
-    padding-right: 3vw;
-    font-size: 1.2em;
-}
-
-#app-form {
-    display: table;
-    width: 10vw;
-    table-layout: fixed;
-}
-
-#app-form input {
-    margin-top: 3px;
 }
 
 .boxed-content {
@@ -246,11 +229,19 @@ tr:nth-child(even) {
     padding: 50px;
     margin: 20px;
 }
+<<<<<<< HEAD
 .activities1 {
     background-color: #FA591E;
     width: auto;border: 15px solid #4422A1;
     padding: 50px;
     margin: 20px;
+=======
+
+  
+    
+.img1 {
+    float: right;
+>>>>>>> 22c418b5b4128bbc6f71eb483e67d73115a38baa
 }
 h1 {
     text-align: center;
@@ -263,6 +254,19 @@ h1 {
 .img4 {
     float: right;
 }
+<<<<<<< HEAD
+=======
+
+
+
+.activities {
+    background-color:white;
+    border: 31px solid #4422A1;
+    margin: px;
+    padding: px;
+}
+
+>>>>>>> 22c418b5b4128bbc6f71eb483e67d73115a38baa
 
 
 /*Configuration Services ends here*/
@@ -310,10 +314,13 @@ padding: 5px;
 .indexcontent {
     display: flex;
     flex-direction: column;
-    padding: 10px;
     margin: 30px;
     background-color: #FCB49A;
     text-align: left;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-size: 1.2em;
+    padding-bottom: 1vw;
 }
 .indexrow {
     padding: 0px;
