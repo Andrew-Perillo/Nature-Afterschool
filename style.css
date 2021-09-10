@@ -304,21 +304,6 @@ h1 {
 
 
 
-/*Footer configuration starts here*/
-.space2 {
-padding-top: 10px;
-}
-.footer {
-position: fixed;
-width: 100%;
-left: 0;
-bottom: 0;
-color: black;
-text-align:center;
-padding: 5px;
-}
-
-/*Footer configuration ends here*/
 
 /*Configuration for About us and Testimonies starts here */
 .content-background {
@@ -362,7 +347,7 @@ padding: 5px;
 }
 
 .HeadTeam {
-    padding: 5vh;
+    padding: 10px;
     text-align: center;
 }
 
@@ -374,6 +359,10 @@ padding: 5px;
     padding-top: 20vh;
     margin: 20vh;
 }
+.empty-1 {
+    padding: 5vh;
+    margin: 5vh;
+}
 
 #prueba1 {
     color: green;
@@ -381,6 +370,28 @@ padding: 5px;
  #prueba2 {
      color: green;
      text-align: center;
-     font-size: 300%;
+     font-size: 250%;
+ }
+ #prueba3 {
+     padding: 10px;
+     float: right;
+     width: 100%;
+     background:yellowgreen;
+     font-size: 120%;
+     text-align: center;
+     
+    
  }
 /*Configuration for About us and Testimonies ends here */
+
+
+/*Footer configuration starts here*/
+
+#prueba4 {
+    display: flex;
+    background-color: azure;
+    text-align: center;
+    font-size: 150%;
+}
+
+/*Footer configuration ends here*/
